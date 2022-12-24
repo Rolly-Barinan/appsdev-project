@@ -29,9 +29,9 @@ export const ProductCard = ({ name, imageUrl, price }: Product) => {
     }
   }
   return (
-    <Wrapper background={imageUrl}>
+    <Wrapper  background={imageUrl}>
       <AddButton isInCart={isInCart} onClick={handleClick}>
-        <p>{isInCart? "-" : "+"}</p>
+        <p>{isInCart? "remove to cart" : "add to cart"}</p>
       </AddButton>
       <TextContainer>
         <Title>{name}</Title>

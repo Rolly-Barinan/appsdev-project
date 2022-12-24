@@ -1,6 +1,6 @@
 import { Product } from './models';
 
-export const shopData: Product[] = [
+export const shopData: Product[] = [ 
   {
     id: 1,
     name: 'Shoes',

@@ -50,7 +50,7 @@ export const App = () => {
           <Link to="/cart">Cart</Link>
         </LinksWrapper>
         <Routes>
-          <Route path="/" element={<Products />} />
+          <Route path="/" element={<Products/>} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </Wrapper>
